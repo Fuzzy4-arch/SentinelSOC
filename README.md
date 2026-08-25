@@ -47,6 +47,11 @@ Detected events are assigned a risk level and stored as security alerts.
 \* 🛡️ Git-safe configuration with sensitive/generated files excluded
 
 
+## 🏗️ Architecture
+
+![SentinelSOC Architecture](architecture.png)
+
+SentinelSOC processes security logs through a detection pipeline that parses events, applies detection rules, calculates risk, stores alerts, and exposes results through a FastAPI REST API.
 
 \## 🏗️ Project Structure
 
