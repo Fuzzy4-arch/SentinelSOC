@@ -67,11 +67,6 @@ The monitoring engine successfully processes security events and generates alert
 
 SentinelSOC provides an interactive REST API through FastAPI and automatically generated Swagger documentation.
 
-### System Architecture
-
-![SentinelSOC Architecture](architecture.png)
-
-
 \## 🏗️ Project Structure
 
 
