@@ -74,47 +74,22 @@ SentinelSOC provides an interactive REST API through FastAPI and automatically g
 ```text
 
 SentinelSOC/
-
-│
-
 ├── app/
-
 │   ├── core/
-
 │   │   ├── parser.py
-
 │   │   └── risk.py
-
-│   │
-
 │   ├── detectors/
-
 │   │   ├── bruteforce.py
-
 │   │   └── rules.py
-
-│   │
-
 │   ├── storage/
-
 │   │   └── database.py
-
-│   │
-
 │   └── api.py
-
-│
-
 ├── tests/
-
-│
-
+│   ├── __init__.py
+│   └── test_detection.py
 ├── main.py
-
 ├── .gitignore
-
 └── README.md
-
 ```
 
 
