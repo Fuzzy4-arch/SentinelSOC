@@ -421,8 +421,6 @@ Planned improvements include:
 
 \* Alert severity filtering
 
-\* Automated testing
-
 \* Docker support
 
 \* SIEM integration
